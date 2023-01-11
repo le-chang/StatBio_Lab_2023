@@ -218,6 +218,7 @@ attach(bps)
 # One-variable plots in R
 
 hist(SYSTBP)
+class(SYSTBP)
 hist(SYSTBP, xlab="Systolic Blood Pressure (mmHg)", main="Histogram of Systolic Blood Pressure") #variable names are all in capitals, don't neet to put datafile name bc of attach function, make sure to seperate things by commas
 boxplot(SYSTBP, xlab="Systolic Blood Pressure (mmHg)")
 boxplot(SYSTBP~SEX) #how systbp changes with sex 
@@ -234,6 +235,13 @@ png(file="example.png")
 plot(1:10)
 dev.off()
 
+png(file="example.png")
+plot(SYSTBP, DIASTBP) 
+plot(SYSTBP[SEX==0], DIASTBP[SEX==0], ylab="Diastolic Blood Pressure", xlab="Systolic Blood Pressure", main="Plot of diastolic against systolic blood pressure for men and women", col="maroon", pch=5)
+points(SYSTBP[SEX==1], DIASTBP[SEX==1], col="yellow", pch=4) #points and lines will add to the previous plot, plot will give you a new plot!
+legend('topleft', c("Women","Men"), pch=c(2,4), col=c("maroon","yellow"), lty=c(2,4))
+
+dev.off()
 
 ### Data Manipulation and dealing with missing variables
 
