@@ -1,5 +1,8 @@
 Creating an R Package
 https://sahirbhatnagar.com/rpkg/
+Section 2&3 is helpful for understand and setting up Git and GitHub
+https://sahirbhatnagar.com/rpkg/#req
+https://sahirbhatnagar.com/rpkg/#gitgithub
 
 Lab 1 link to google drive:
 https://drive.google.com/drive/folders/1OtCVFGThrOXRld7HMjsHOaJbnRb6H6cL?usp=share_link
