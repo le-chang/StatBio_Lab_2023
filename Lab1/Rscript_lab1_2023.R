@@ -193,8 +193,8 @@ head(mtcars)
 
 mtcars[4, 3] #what is it selecting?
 mtcars["Valiant", "vs"] #subset by row/col name
-ncols(mtcars) #number of columns in mtcars
-nrows(mtcars) #number of rows in mtcars
+ncol(mtcars) #number of columns in mtcars
+nrow(mtcars) #number of rows in mtcars
 
 # Extending data frames
 
