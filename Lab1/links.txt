@@ -4,3 +4,8 @@ https://sahirbhatnagar.com/rpkg/
 Lab 1 link to google drive:
 https://drive.google.com/drive/folders/1OtCVFGThrOXRld7HMjsHOaJbnRb6H6cL?usp=share_link
 
+Install R & RStudio
+https://rstudio-education.github.io/hopr/starting.html
+
+https://www.datacamp.com/tutorial/installing-R-windows-mac-ubuntu
+
