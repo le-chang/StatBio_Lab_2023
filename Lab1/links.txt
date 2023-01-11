@@ -1,0 +1,6 @@
+Creating an R Package
+https://sahirbhatnagar.com/rpkg/
+
+Lab 1 link to google drive:
+https://drive.google.com/drive/folders/1OtCVFGThrOXRld7HMjsHOaJbnRb6H6cL?usp=share_link
+
