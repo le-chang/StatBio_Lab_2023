@@ -29,7 +29,7 @@ mean(kidney$weight[!missing]) # calculate mean weight of not missing values
 kidney$weight[missing] <- 72.8 # assign missing values the mean
 
 # create a function to replace missing vals
-
+kidney <- read.csv("kidney.csv")
 replace_missing <- function(data=NA){
   
   missing.inx <- is.na(data)
