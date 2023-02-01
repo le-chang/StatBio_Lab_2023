@@ -26,5 +26,5 @@ which(x!=1)
 
 phyla <- c("Kingdom","Phylum", "Class", "Order", "Family", "Genus", "Species")
 which(phyla %in% "Genus")
-
+phyla %in% "Genus"
 
