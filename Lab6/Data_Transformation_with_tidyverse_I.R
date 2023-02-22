@@ -24,6 +24,8 @@ library(tidyr)
 # Convert the data to tidy format using gather
 tidy_student_scores <- gather(student_scores, key = "subject", value = "score", -name)
 
+#tidy_student_scores_name <- gather(student_scores, key = "subject", value = "score" )
+
 # Output
 # name  subject score
 # 1    Alice     math    85
@@ -47,13 +49,13 @@ data(mtcars)
 
 # Filter to only include cars with four gears
 mtcars %>%
-  filter(gear == 4) %>%
+  filter(gear == 4) %>% 
   
   # Select only the mpg  hp, and cyl columns
-  select(mpg, hp, cyl) %>%
+  select(mpg, hp, cyl) %>% 
   
   # Create a new variable based on existing ones
-  mutate(hp_per_mpg = hp / mpg) %>% 
+  mutate(hp_per_mpg = hp / mpg)  %>% 
   
   # Group the data by the number of cylinders
   group_by(cyl) %>%
