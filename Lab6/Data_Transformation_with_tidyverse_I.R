@@ -1,4 +1,4 @@
-
+library(tidyverse)
 # Data Transformation with tidyverse (I) ----------------------------------
 
 
@@ -49,11 +49,11 @@ data(mtcars)
 mtcars %>%
   filter(gear == 4) %>%
   
-  # Select only the mpg and hp columns
-  select(mpg, hp) %>%
+  # Select only the mpg  hp, and cyl columns
+  select(mpg, hp, cyl) %>%
   
   # Create a new variable based on existing ones
-  mutate(hp_per_mpg = hp / mpg) %>%
+  mutate(hp_per_mpg = hp / mpg) %>% 
   
   # Group the data by the number of cylinders
   group_by(cyl) %>%
