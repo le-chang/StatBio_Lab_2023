@@ -88,6 +88,10 @@ library(tidyverse)
 # Import data
 my_data <- read_csv("my_data.csv")
 
+my_data <- data.frame(
+  Date = c("2023-01-23", "2023-01-24", "2023-01-25"),
+  Temp = c(30, 25, 40)
+)
 # Select and rename variables
 my_data %>%
   select(date = Date, temperature = Temp) %>%
