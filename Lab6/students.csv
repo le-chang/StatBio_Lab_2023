@@ -1,7 +1,7 @@
 Name,Gender,Year,Class,GPA,Attendance
-Alice,Freshman,A,3.8,91
-Bob,Senior,B,2.7,82
-Charlie,Junior,A,3.2,90
-David,Sophomore,B,3.1,89
-Eve,Freshman,A,3.6,93
-Frank,Senior,B,2.9,85
+Alice,F,Freshman,A,3.8,91
+Bob,M,Senior,B,2.7,82
+Charlie,M,Junior,A,3.2,90
+David,M,Sophomore,B,3.1,89
+Eve,F,Freshman,A,3.6,93
+Frank,M,Senior,B,2.9,85
