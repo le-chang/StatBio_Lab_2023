@@ -77,7 +77,6 @@ mydata <- data.frame(
   Age = c(30, 25, 40),
   Height = c(180, 165, 175)
 )
-library(writr)
 write_csv(mydata, "mydata_exported.csv")
 
 
