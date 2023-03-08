@@ -51,6 +51,7 @@ str_sub(my_string, start = 1, end = 3)
 
 # Use str_replace to replace a substring
 str_replace(my_string, "is", "was")
+# replace???
 
 # Use str_detect to check if a pattern is present
 str_detect(my_string, "learning")
