@@ -1,0 +1,12 @@
+EmployeeID,Name,DOB,HireDate,Department,Salary
+1,Smith_John,05/10/1982,06/01/2015,IT,75000
+2,Johnson_Jane,03/23/1978,02/15/2012,Sales,60000
+3,Williams_James,07/19/1990,01/01/2018,HR,45000
+4,Jones_Karen,12/15/1985,09/10/2016,IT,80000
+5,Brown_Michael,10/02/1989,04/01/2017,IT,90000
+6,Davis_Elizabeth,11/30/1976,05/01/2008,Sales,65000
+7,Miller_Robert,08/07/1992,07/01/2016,HR,50000
+8,Wilson_Kim,06/18/1984,03/01/2019,IT,85000
+9,Moore_William,04/05/1986,08/15/2013,Sales,55000
+10,Taylor_Samantha,09/12/1995,11/01/2017,IT,70000
+

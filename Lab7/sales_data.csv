@@ -1,0 +1,6 @@
+Sales person,Product,Region,Sales_total
+John Smith,(A-101) Widget,"New York, NY", $5000.00
+Jane Doe,(C-101) Gadget,"Los Angeles, CA", $10000.00
+Sam Johnson,(B-105) Gizmo,"Chicago, IL", $7500.00
+Sue Lee,(D-201) Widget,"San Francisco, CA", $3500.00
+
