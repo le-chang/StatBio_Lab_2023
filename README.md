@@ -8,4 +8,4 @@
 ### [Lab 5: Creating an R package and Git & Github 101](/Lab5)
 ### [Lab 6: Data Transformation with tidyverse (I)](/Lab6)
 ### [Lab 7: Data Transformation with tidyverse (II)](/Lab7)
-
+### Lab 8: Using R markdown to make reports
