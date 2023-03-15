@@ -9,3 +9,4 @@
 ### [Lab 6: Data Transformation with tidyverse (I)](/Lab6)
 ### [Lab 7: Data Transformation with tidyverse (II)](/Lab7)
 ### [Lab 8: Using R markdown to make reports & Xia Lab Tools](/Lab8)
+### [Lab 9: Debug in R](/Lab9)
