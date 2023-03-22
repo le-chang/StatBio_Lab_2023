@@ -8,6 +8,22 @@
 #### [tidyr Documentation](https://tidyr.tidyverse.org/)
 #### [Data Wrangling Cheat Sheet](https://github.com/rstudio/cheatsheets/blob/master/data-transformation.pdf)
 #### [Getting Started with dplyr](https://dplyr.tidyverse.org/articles/dplyr.html)
+#### [R Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+#### [R Markdown Reference Guide](https://rmarkdown.rstudio.com/lesson-1.html)
+#### [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/basics.html)
+#### [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/introduction.html)
+#### [ggplot Cheat Sheet](https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf)
+#### [ggplot2 official documention](https://ggplot2.tidyverse.org/index.html)
+#### [R Graphics Cookbook, 2nd edition](https://r-graphics.org/)
+#### [R Graph Gallery](https://r-graph-gallery.com/index.html)
+
+
+
+
+
+
+
+
 
 
 
