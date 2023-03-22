@@ -1,0 +1,48 @@
+---
+title: "New Report with kable and qplot"
+author: "Collin Paschall"
+date: "6/19/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(knitr)
+
+setwd("D:/dropbox/Dropbox/data_viz_coursera")
+
+dat<-read_csv("cces_sample_coursera.csv")
+
+dat<-drop_na(dat)
+
+```
+
+# My first tables
+
+```{r table1,echo=FALSE}
+kable(table(dat$gender),align="l")
+#?kable
+kable(summarise(dat,Mean=mean(dat$faminc_new),Median=median(dat$faminc_new)),align="l",label="Summary Statistics for Family Income")
+```
+
+# My first QPlots
+
+These examples inspired by [UC Business Analytics R Programming Guide](https://uc-r.github.io/quickplots).
+
+See also the [documentation page for qplot.](https://ggplot2.tidyverse.org/reference/qplot.html), which you can also access with ?qplot in the `R` console.
+
+```{r plot1,echo=FALSE}
+data(mtcars)
+
+qplot(x=mpg,data=mtcars,geom="histogram",bins=5,main="Histogram Title",xlab="Miles Per Gallon")
+
+qplot(x=mpg,data=mtcars,geom="density",main="Density Plot Title",xlab="Miles Per Gallon")
+
+qplot(x=mpg,data=mtcars,geom="boxplot",main="Boxplot Title",xlab="Miles Per Gallon")
+
+qplot(x=wt,y=mpg,data=mtcars,geom="point",main="Scatterplot Title",xlab="Weight",ylab="Miles Per Gallon")
+```
+
+

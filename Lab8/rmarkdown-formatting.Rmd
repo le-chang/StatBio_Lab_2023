@@ -1,0 +1,47 @@
+---
+title: "RMarkdown Quick Guide"
+author: "Collin Paschall"
+date: "6/19/2020"
+output: html_document
+---
+
+This is just normal written text in an RMarkdown file. There 's nothing special about this. This is normal paragraph text.
+
+You can start a new paragraph just by hitting enter and putting in a blank line.
+
+If you want text in *italics* or **bold** you need to mark that with either `*one*` or `**two**` asterisks on either side.
+
+If you want text to like `verbatim code` you should surround it with one backtick on both sides.
+
+You can do superscripts^1^ surrounding text with carets (^) or subscripts~1~ by surrounding texts with tildes (~).
+
+Endashs -- are two minus signs, emdashes --- are three minus signs.
+
+>A block quote is preceded by a greater than sign. A block quote is preceded by a greater than sign. A block quote is preceded by a greater than sign. A block quote is preceded by a greater than sign. A block quote is preceded by a greater than sign.
+
+# Different Levels of Header
+## Are preceded with increasing
+### Numbers of pound signs (hashtags#)
+
+You can make bullet lists. Put a blank line after paragraph graph text. Then, on the next like, use an asterisks (*) for the top bullet. For sub-items, on a new line, press tab and then use a plus sign (+). For sub-sub items, press tab twice and use a minus sign (-)
+
+* My bullets
+  + sub-item 1
+    - sub-sub-item 1
+
+For numbered lists, start the number list item with a number followed by a period (1.)
+
+1. Number 1
+2. Number 2
+
+
+|Right|Left|Default|Center|
+|----:|:---|-------|:----:|
+|You  |can | make  | a    |
+|table|by  | hand  |but   |
+|it   |is  | clunky| .    |
+
+**To see more formatting options, look at the second page of the [RMarkdown cheatsheet.](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)**
+
+**For a really, really detailed look at R Markdown, see the [Definitive Guide by Xie, Allaire, and Grolemund](https://bookdown.org/yihui/rmarkdown/)**
+
