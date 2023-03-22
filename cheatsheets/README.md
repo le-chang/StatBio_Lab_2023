@@ -16,6 +16,7 @@
 #### [ggplot2 official documention](https://ggplot2.tidyverse.org/index.html)
 #### [R Graphics Cookbook, 2nd edition](https://r-graphics.org/)
 #### [R Graph Gallery](https://r-graph-gallery.com/index.html)
+#### [ggthemes Gallery](https://yutannihilation.github.io/allYourFigureAreBelongToUs/ggthemes/)
 
 
 
