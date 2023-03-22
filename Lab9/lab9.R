@@ -2,66 +2,92 @@
 # traceback() -------------------------------------------------------------
 
 # Define a function that will throw an error
-my_function <- function(x) {
-  if (x < 0) {
-    stop("x must be greater than or equal to 0")
-  }
-  return(x)
+# Define function 'a'
+a <- function(x) {
+  b(x + 1)
 }
 
-# Call the function with an invalid argument
-my_function(-1)
+# Define function 'b'
+b <- function(y) {
+  c(y * 2)
+}
 
-# Use traceback() to see the call stack
+# Define function 'c'
+c <- function(z) {
+  stop("An error occurred!")
+}
+
+# Call function 'a'
+a(5)
+# After running the above code, run this command
 traceback()
 
+# debug() -----------------------------------------------------------------
+
+# Define function 'a'
+a <- function(x) {
+  b(x + 1)
+}
+
+# Define function 'b'
+b <- function(y) {
+  c(y * 2)
+}
+
+# Define function 'c'
+c <- function(z) {
+  stop("An error occurred!")
+}
+
+# Set debug mode for function 'c'
+debug(c)
+
+# Call function 'a'
+a(5)
 
 # browser() ---------------------------------------------------------------
 
-# Define a function that will throw an error
-my_function <- function(x) {
-  if (x < 0) {
-    browser()
-  }
-  return(x)
+# Define function 'a'
+a <- function(x) {
+  b(x + 1)
 }
 
-# Call the function with an invalid argument
-my_function(-1)
-
-# Enter the browser environment, allowing you to interactively inspect the values of variables and other objects. 
-# You can use the n command to step through the code line by line, 
-# and the Q command to exit the browser environment.
-
-
-# debug() -----------------------------------------------------------------
-# Define a function that will throw an error
-my_function <- function(x) {
-  if (x < 0) {
-    stop("x must be non-negative")
-  }
-  return(x)
+# Define function 'b'
+b <- function(y) {
+  c(y * 2)
 }
 
-# Call the function with an invalid argument
-my_function(-1)
-
-# debug
-debug(my_function)
-my_function(-1)
-
-
-# use printing out values of variables to debug your code. ----------------
-
-# Define a function that will throw an error
-my_function <- function(x) {
-  if (x < 0) {
-    print(paste0("x is negative: ", x))
-  }
-  return(x)
+# Define function 'c'
+c <- function(z) {
+  browser() # Insert the breakpoint using browser() to start interactive debugging
+  stop("An error occurred!")
 }
 
-# Call the function with an invalid argument
-my_function(-1)
+# Call function 'a'
+a(5)
 
+# Print out values of variables to debug ----------------------------------
+
+# Define function 'a'
+a <- function(x) {
+  cat("Inside function a: x =", x, "\n")
+  b(x + 1)
+}
+
+# Define function 'b'
+b <- function(y) {
+  cat("Inside function b: y =", y, "\n")
+  c(y * 2)
+}
+
+# Define function 'c'
+c <- function(z) {
+  cat("Inside function c: z =", z, "\n")
+  stop("An error occurred!")
+}
+
+# Call function 'a'
+a(5)
+
+# print(paste("Inside function a: x =", x))
 
