@@ -5,6 +5,11 @@
 #### [Data Import Cheat Sheet](https://github.com/rstudio/cheatsheets/blob/master/data-import.pdf)
 #### [tibble Documentation](https://tibble.tidyverse.org/)
 #### [readr Documentation](https://readr.tidyverse.org/)
-#### [Data Import Cheat Sheet](https://github.com/rstudio/cheatsheets/blob/master/data-import.pdf)
+#### [tidyr Documentation](https://tidyr.tidyverse.org/)
+#### [Data Wrangling Cheat Sheet](https://github.com/rstudio/cheatsheets/blob/master/data-transformation.pdf)
+#### [Getting Started with dplyr](https://dplyr.tidyverse.org/articles/dplyr.html)
+
+
+
 
 
