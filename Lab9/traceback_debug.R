@@ -20,4 +20,7 @@ average_salary <- data %>% select(salary) %>% mean()
 cat("The average age is:", average_age, "\n")
 cat("The average salary is:", average_salary, "\n")
 
+# Trigger an error intentionally
+error_data <- data %>% select(non_existent_column) %>% mean()
 
+traceback()
