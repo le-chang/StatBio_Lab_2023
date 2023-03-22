@@ -2,7 +2,9 @@
 title: "RMarkdown Quick Guide"
 author: "Collin Paschall"
 date: "6/19/2020"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 This is just normal written text in an RMarkdown file. There 's nothing special about this. This is normal paragraph text.
