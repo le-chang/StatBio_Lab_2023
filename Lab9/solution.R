@@ -30,10 +30,10 @@ data <- data.frame(
 browser()
 
 # Calculate average age
-average_age <- data %>% select(age) %>% pull() %>% mean()
+average_age <- data %>% select(age) %>%  mean()
 
 # Calculate average salary
-average_salary <- data %>% select(salary) %>% pull() %>% mean()
+average_salary <- data %>% select(salary) %>%  mean()
 
 # Print the results
 cat("The average age is:", average_age, "\n")
