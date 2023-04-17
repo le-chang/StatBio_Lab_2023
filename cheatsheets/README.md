@@ -17,6 +17,7 @@
 #### [R Graphics Cookbook, 2nd edition](https://r-graphics.org/)
 #### [R Graph Gallery](https://r-graph-gallery.com/index.html)
 #### [ggthemes Gallery](https://yutannihilation.github.io/allYourFigureAreBelongToUs/ggthemes/)
+#### [Data Visualization & Dashboarding with R Specialization](https://www.coursera.org/specializations/jhu-data-visualization-dashboarding-with-r)
 
 
 
